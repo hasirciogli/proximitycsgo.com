@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@200;300;400;500;600;700;800;900;1000&family=Cairo:wght@600&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Reem+Kufi+Fun:wght@400;500;600;700&family=Titillium+Web:wght@700&display=swap');
+
+
+
+.ff-titillium{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.ff-cairox{
+    font-family: 'Cairo', sans-serif;
+}
+
+.ff-josefin{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.ff-reemkufi{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.ff-cairoplay{
+    font-family: 'Cairo Play', cursive;
+}
+
+.ffs-700{
+    font-weight: 700;
+}
+
+
+
+
+#karAlani {
+    position: fixed;
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.fa-snowflake-o {
+    color: #fff;
+    position: absolute;
+    top: -20px;
+    animation: yagis linear forwards;
+}
+
+@keyframes yagis {
+    to {
+        transform: translate(50vh, 400vh);
+    }
+}
+
+
+.fas-sepratoranim{
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-name: seprator_anim;
+}
+
+@keyframes seprator_anim {
+    0% {
+        left: 0px;
+    }
+
+    50%{
+        left: -1500px;
+    }
+
+    100%{
+        left: -0px;
+    }
+}

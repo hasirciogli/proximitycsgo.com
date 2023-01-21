@@ -1,0 +1,76 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "a04656d4c8148db082204adeb498c386",
+    "packages": [
+        {
+            "name": "erkineren/shopier",
+            "version": "v0.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/erkineren/shopier.git",
+                "reference": "bb20fc89af4c3f3c22fd5b163dfac1744905cea8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/erkineren/shopier/zipball/bb20fc89af4c3f3c22fd5b163dfac1744905cea8",
+                "reference": "bb20fc89af4c3f3c22fd5b163dfac1744905cea8",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*"
+            },
+            "require-dev": {
+                "vlucas/phpdotenv": "^4.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Shopier\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Erkin Eren",
+                    "email": "eren@erkin.net",
+                    "homepage": "https://erkin.net"
+                }
+            ],
+            "description": "Shopier Entegrasyon - Php Api Sdk",
+            "keywords": [
+                "api",
+                "entegrasyon",
+                "payment gateway",
+                "shopier",
+                "ödeme alma entegrasyonu"
+            ],
+            "support": {
+                "issues": "https://github.com/erkineren/shopier/issues",
+                "source": "https://github.com/erkineren/shopier/tree/v0.2.2"
+            },
+            "funding": [
+                {
+                    "url": "https://www.patreon.com/erkineren",
+                    "type": "patreon"
+                }
+            ],
+            "time": "2021-02-28T14:29:40+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

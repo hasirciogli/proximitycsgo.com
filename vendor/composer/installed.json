@@ -1,0 +1,66 @@
+{
+    "packages": [
+        {
+            "name": "erkineren/shopier",
+            "version": "v0.2.2",
+            "version_normalized": "0.2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/erkineren/shopier.git",
+                "reference": "bb20fc89af4c3f3c22fd5b163dfac1744905cea8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/erkineren/shopier/zipball/bb20fc89af4c3f3c22fd5b163dfac1744905cea8",
+                "reference": "bb20fc89af4c3f3c22fd5b163dfac1744905cea8",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*"
+            },
+            "require-dev": {
+                "vlucas/phpdotenv": "^4.1"
+            },
+            "time": "2021-02-28T14:29:40+00:00",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "Shopier\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Erkin Eren",
+                    "email": "eren@erkin.net",
+                    "homepage": "https://erkin.net"
+                }
+            ],
+            "description": "Shopier Entegrasyon - Php Api Sdk",
+            "keywords": [
+                "api",
+                "entegrasyon",
+                "payment gateway",
+                "shopier",
+                "ödeme alma entegrasyonu"
+            ],
+            "support": {
+                "issues": "https://github.com/erkineren/shopier/issues",
+                "source": "https://github.com/erkineren/shopier/tree/v0.2.2"
+            },
+            "funding": [
+                {
+                    "url": "https://www.patreon.com/erkineren",
+                    "type": "patreon"
+                }
+            ],
+            "install-path": "../erkineren/shopier"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
